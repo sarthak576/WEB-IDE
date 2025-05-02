@@ -7,15 +7,15 @@
 ## 📸 Screenshots  
 
 ### (a) Terminal Error Encountered  
-![Permission Denied Error](./Screenshot%20From%202025-05-02%2010-19-27.png)  
+![Permission Denied Error](https://github.com/sarthak576/WEB-IDE/blob/main/errors%20fixed/imge2.png)  
 *`EACCES` error when installing `node-gyp`*  
 
 ### (b) Node-PTY Multi-Arch Solution  
-![node-pty-prebuilt-multiarch](./Screenshot%20From%202025-05-02%2010-20-30.png)  
+![node-pty-prebuilt-multiarch](https://github.com/sarthak576/WEB-IDE/blob/main/errors%20fixed/image.png)  
 *Switched to `node-pty-prebuilt-multiarch` for cross-platform support*  
 
 ### (c) Meme: The Struggle is Real 😅  
-![Meme: "When `npm install` fails for the 10th time"](https://i.imgflip.com/7w3x0k.jpg)  
+![Meme: "When `npm install` fails for the 10th time"](https://github.com/sarthak576/WEB-IDE/blob/main/errors%20fixed/download.jpeg)  
 
 ---
 
