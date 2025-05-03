@@ -17,6 +17,9 @@
 ### (c) Meme: The Struggle is Real 😅  
 ![Meme: "When `npm install` fails for the 10th time"](https://github.com/sarthak576/WEB-IDE/blob/main/errors%20fixed/download.jpeg)  
 
+### (d) Socket.io is availabe only on application form  
+![node-pty-prebuilt-multiarch](./img3.png)  
+*Switched to `postman--Desktop-app` and termainal:data in events should be asked*  
 ---
 
 ## 🔧 Problem & Fix  

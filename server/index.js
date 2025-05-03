@@ -8,7 +8,7 @@ const ptyProcess = pty.spawn('bash', [], {
     name: 'xterm-color',
     cols: 80,
     rows: 30,
-    cwd: process.env.HOME,
+    cwd: process.env.INIT_CWD,
     env: process.env
   });
 
@@ -21,8 +21,8 @@ const io =new SocketServer({
     cors:'*'
 })
 
-io.attach(server);
 
+io.attach(server);
 
 ptyProcess.onData(data=>{
     io.emit('terminal:data',data)
@@ -30,7 +30,7 @@ ptyProcess.onData(data=>{
 // for  different user -> different docker container 
 //* building a bridge 
 io.on('connection',(socket)=>{
-    console.log(`Socket Connected`,socket.io)
+    console.log(`Socket Connected`,socket.id )
 
     socket.on('terminal:write',(data)=>{
    ptyProcess.write(data);
